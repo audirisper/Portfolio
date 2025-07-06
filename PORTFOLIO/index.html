@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="CSS/locomotive.css">
+    <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+    <title>Risper Audi Portfolio</title>
+    
+</head>
+<body>
+
+<div class="scrollContainer">
+<!-- Header -->
+    <!-- Header -->
+<header class="header-area">
+  <div class="container">
+    <div class="header">
+      <div class="menu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projectscroll">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul>
+          <li><button class="resume-btn" onclick="openResumeModal()">Resume</button></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+    <div id="resumeModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeResumeModal()">&times;</span>
+    <iframe src="IMAGES\Resume\Resume.pdf" frameborder="0"></iframe>
+  </div>
+</div>
+
+    <!-- Landing page content -->
+    <div class="wrapper" id="home">
+    <div class="container">
+      <div class="main">
+        <span class="topline"><span class="wave">👋</span>Hello, my name is </span>
+        <h1>Risper Audi</h1>
+        <h1>I'm a <span class="multitext"></span></h1>
+      </div>
+    </div>
+  </div>
+
+    <!-- About Section -->
+    
+    <div id="about" class="about reveal">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="subtitle">About Me</h1>
+
+                    <p>I’m a passionate and driven professional with a strong foundation in data science, Python programming, AI, and machine learning. I’m captivated by the power of data, how it can be transformed into insights, used to predict outcomes, and applied to solve real-world challenges across industries.
+                    Python is my go-to language because of its simplicity and flexibility. From backend development to building efficient data analysis pipelines, I use it to create smart, scalable solutions. I thrive at the intersection of creativity and technology, where logic meets innovation.
+                    I'm continuously seeking growth, whether through meaningful projects, new challenges, or learning opportunities. I’m especially passionate about crafting impactful tech experiences that make a difference.
+                    </p>
+                
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('tech-stack')">Tech Stack</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab " id="skills">
+                    <ul>
+                       <li><span>Python Development</span><br>Building scalable, data-driven solutions using Python</li>
+                       <li><span>Data Science & ML</span><br>Predictive modeling, feature engineering, and ML pipelines</li>
+                       <li><span>Mobile App Development</span><br>Prototyping apps with Thunkable & design thinking</li>
+                       <li><span>Web Development</span><br>Back-end development with Flask and RESTful APIs</li>
+                       <li><span>STEM Mentorship</span><br>Facilitating tech sessions for youth with Raspberry Pi, Python, and Scratch</li>
+                       <li><span>Version Control</span><br>Git & GitHub for collaborative development</li>
+                       <li><span>Public Speaking</span><br>Workshops, mentorship, and peer knowledge-sharing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="tech-stack">
+  <p>I am proficient in the use of:</p>
+
+  <div class="stack-group">
+    <h3>Languages</h3>
+    <ul class="stack-list">
+      <li><img src="https://www.svgrepo.com/show/452091/python.svg"><span>Python</span></li>
+      <li><img src="https://www.svgrepo.com/show/303654/java-logo.svg"><span>Java</span></li>
+      <li><img src="IMAGES\Icons\C++ (CPlusPlus).svg"><span>HTML & CSS</span></li>
+      <li><img src="https://www.svgrepo.com/show/303206/javascript-logo.svg"><span>JavaScript</span></li>
+      <li><img src="IMAGES\Icons\C++ (CPlusPlus).svg"><span>C++</span></li>
+      <li><img src="IMAGES\Icons\bash-svgrepo-com.svg"><span>Bash</span></li>
+      <li><img src="IMAGES\Icons\sql-svgrepo-com.svg"><span>SQL</span></li>
+    </ul>
+  </div>
+
+  <div class="stack-group">
+    <h3>Frameworks & Libraries</h3>
+    <ul class="stack-list">
+      <li><img src="IMAGES\Icons\numpy-svgrepo-com.svg"><span>NumPy</span></li>
+      <li><img src="IMAGES\Icons\pandas-svgrepo-com.svg"><span>Pandas</span></li>
+      <li><img src="IMAGES\Icons\Matplotlib.svg"><span>Matplotlib</span></li>
+      <li><img src="IMAGES\Icons\seaborn-1.svg"><span>Seaborn</span></li>
+      <li><img src="IMAGES\Icons\Ploty.svg"><span>Plotly</span></li>
+      <li><img src="IMAGES\Icons\Apache Spark.svg"><span>PySpark</span></li>
+      <li><img src="IMAGES\Icons\scikit-learn.svg"><span>Scikit-Learn</span></li>
+    </ul>
+  </div>
+
+  <div class="stack-group">
+    <h3>Tools & Technologies</h3>
+    <ul class="stack-list">
+      <li><img src="IMAGES\Icons\Flask.svg"><span>Flask</span></li>
+      <li><img src="IMAGES\Icons\GitHub.svg"><span>Git & GitHub</span></li>
+    </ul>
+  </div>
+</div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>KABARAK UNIVERSITY</span><br> Bachelors in Computer Science</li>
+                        <li><span>COMPUTER PRIDE</span><br>Web Development & Python Programming</li>
+                    </ul>
+                </div>
+                </div>
+            
+                <div class="about-col-2">
+                    <img src="IMAGES\Risper Audi.jpg" alt="My Image">
+                </div>
+            </div>
+            <div class="about-heading">
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <!-- Projects Section -->
+
+    <div id="projectscroll" class="my-work">
+        <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="allprojects">
+        <div class="projectbuttons">
+            <p id="prev">Previous Project</p>
+            <p id="next">Next Project</p>
+            <i class="fas fa-arrow-left" id="prev-tab" onclick="prevTab()"></i>
+            <i class="fas fa-arrow-right" id="next-tab" onclick="nextTab()"></i>
+        </div>
+        <div class="projects active-proj" id="project-1">
+          <div class="project-images">
+            <img src="https://media.licdn.com/dms/image/v2/C5612AQGjqEGscOxIRA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1606337426888?e=1757548800&v=beta&t=LgjSDNl2YvnaOmJkBSZsdV01WTs3GqQbxbVhL9SDJf4" alt="#" class="project1">
+          </div>
+          <div class="project-content" >
+            <div class="project-titles">
+              <h2 class="project">  Titanic Survival Prediction</h2>
+            </div>
+            <div class="project-brief">
+              <p>This project explores the famous Titanic dataset to predict passenger survival using machine learning techniques.
+
+                 I used Python along with libraries like Pandas, Seaborn, Matplotlib, and Scikit-learn to analyze the data, engineer features, and build predictive models. The goal was to classify whether a passenger survived the Titanic disaster based on features such as age, sex, ticket class, fare, and family size.
+ 
+                 The project demonstrates my ability to clean and analyze real-world data, visualize insights, and apply classification algorithms to make data-driven predictions.</p>
+            </div>
+            <div class="project-stack">
+                <h1 class="stack-title">Technologies Used:</h1>
+                <ul>
+                   <li><img src="IMAGES/Icons/pandas-svgrepo-com.svg" width="20"></li>
+                   <li><img src="IMAGES/Icons/Matplotlib.svg" width="20"></li>
+                   <li><img src="IMAGES/Icons/seaborn-1.svg" width="20"></li>
+                   <li><img src="https://www.svgrepo.com/show/452091/python.svg" width="20"></li>
+                </ul>  
+            </div>
+            <div class="project-links">
+               <a href="https://github.com/audirisper/DataScienceProjects" target="_blank"><button class="button-57" role="button"><span class="text">Project Demo</span><span><i class="fas fa-external-link-alt"></i></span></button></a> 
+               <a href="https://github.com/audirisper/DataScienceProjects" target="_blank"><button class="button-57" role="button"><span class="text">Github Repository</span><span><i class="fab fa-github"></i></span></button></a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="projects" id="project-2">
+          <div class="project-images">
+            <img src="IMAGES/rad-pozniakov-eBYQfYGE8js-unsplash.jpg" alt="#" class="project1">
+          </div>
+          <div class="project-content">
+            <div class="project-titles">
+              <h2 class="project">Femicide Awareness Platform</h2>
+            </div>
+            <div class="project-brief">
+              <p>Zinduka is a project aimed at addressing femicide by providing a platform to record incidents, share survivor stories, offer helpline support, organize community events, provide assistance services, and manage fundraising efforts. This initiative seeks to raise awareness, support survivors, and foster community action to combat gender-based violence.</p>
+            </div>
+            <div class="project-stack">
+                <h1 class="stack-title">Technologies Used:</h1>
+                <ul>
+                    <li><img src="https://www.svgrepo.com/show/303206/javascript-logo.svg" width="20"></li>
+                    <li><img src="IMAGES\Icons\C++ (CPlusPlus).svg" width="20"></li>
+                    <li><img src="https://www.svgrepo.com/show/452091/python.svg" width="20"></li>
+                </ul>  
+            </div>
+            <div class="project-links">
+               <a href="https://github.com/audirisper/Zinduka" target="_blank"><button class="button-57" role="button"><span class="text">Project Demo</span><span><i class="fas fa-external-link-alt"></i></span></button></a> 
+               <a href="https://github.com/audirisper/Zinduka" target="_blank"><button class="button-57" role="button"><span class="text">Github Repository</span><span><i class="fab fa-github"></i></span></button></a> 
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="projects" id="project-3">
+          <div class="project-images">
+            <img src="IMAGES\pexels-markusspiske-3970332.jpg" alt="#" class="project1">
+          </div>
+          <div class="project-content">
+            <div class="project-titles">
+              <h2 class="project">COVID-19_Project</h2>
+            </div>
+            <div class="project-brief">
+              <p>The COVID‑19_Project is a Streamlit web app that visualizes global and U.S. COVID-19 trends and forecasts future cases using Facebook’s Prophet. It features an interactive dashboard with Plotly charts, allowing users to explore confirmed cases, deaths, and recoveries, while showcasing an end-to-end data science workflow from analysis to deployment..</p>
+            </div>
+            <div class="project-stack">
+                <h1 class="stack-title">Technologies Used:</h1>
+                <ul>
+                   <li><img src="IMAGES/Icons/pandas-svgrepo-com.svg" width="20"></li>
+                   <li><img src="IMAGES/Icons/Matplotlib.svg" width="20"></li>
+                   <li><img src="IMAGES/Icons/seaborn-1.svg" width="20"></li>
+                   <li><img src="https://www.svgrepo.com/show/452091/python.svg" width="20"></li>
+                </ul>  
+            </div>
+            <div class="project-links">
+               <a href="https://github.com/audirisper/COVID-19_Project" target="_blank"><button class="button-57" role="button"><span class="text">Project Demo</span><span><i class="fas fa-external-link-alt"></i></span></button></a> 
+               <a href="https://github.com/audirisper/COVID-19_Project" target="_blank"><button class="button-57" role="button"><span class="text">Github Repository</span><span><i class="fab fa-github"></i></span></button></a> 
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+<!-- Contact Section -->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fas fa-inbox"></i> audirisper@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i> +254 721217950</p>
+            <div class="social-icons">
+                <a href="https://github.com/audirisper" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/risper-audi-50316a266/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+            </div>
+          
+        </div>
+        <div class="contact-right">
+                <form id="contact-form" onsubmit="handleSubmit(event)">
+  <input type="text" name="Name" placeholder="Your Name" required>
+  <input type="email" name="Email" placeholder="Your Email" required>
+  <textarea name="Message" id="message" rows="6" placeholder="Your Message" maxlength="500"></textarea>
+  <button class="button-53" type="submit">Submit</button>
+</form>
+<div id="success-msg" style="display:none; margin-top:10px; color:green;">✅ Message sent successfully!</div>
+
+       </div>
+        
+    </div>
+
+</div>
+
+</div>
+<div class="copyright">
+    <p>copyright © Risper Audi</p>
+</div>
+</div>
+      
+      
+
+<script>
+    const githubLogo = document.querySelector('.social-media-icons img[src="Images/icons/github-logo.png"]');
+    const githubLogoHover = 'Images/icons/github-logo2.png';
+    
+    githubLogo.addEventListener('mouseover', function() {
+      githubLogo.src = githubLogoHover;
+    });
+    
+    githubLogo.addEventListener('mouseout', function() {
+      githubLogo.src = 'Images/icons/github-logo.png';
+    });
+    </script>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+    var currentTab = 0;
+    var tabs = document.getElementsByClassName("projects");
+    
+    function showTab(index) {
+      // Hide all tabs
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove("active-proj");
+      }
+      // Show the selected tab
+      tabs[index].classList.add("active-proj");
+    }
+    
+    function prevTab() {
+      if (currentTab > 0) {
+        currentTab--;
+        showTab(currentTab);
+      }
+    }
+    
+    function nextTab() {
+      if (currentTab < tabs.length - 1) {
+        currentTab++;
+        showTab(currentTab);
+      }
+    }
+    
+      var currentTab = 0;
+var tabs = document.getElementsByClassName("projects");
+
+function showTab(index) {
+  // Hide all tabs
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].classList.remove("active-proj");
+  }
+  // Show the selected tab
+  tabs[index].classList.add("active-proj");
+}
+
+function prevTab() {
+  if (currentTab > 0) {
+    currentTab--;
+    showTab(currentTab);
+  }
+}
+
+function nextTab() {
+  if (currentTab < tabs.length - 1) {
+    currentTab++;
+    showTab(currentTab);
+  }
+}
+
+showTab(0);
+
+</script>
+<script src="JS/index.js"></script>
+  
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<script>
+    var typingEffect =new Typed(".multitext", {
+    strings : ["Python Expert", "Data Scientist", "AI Enthusiast"],
+    loop : true,
+    typeSpeed : 100,
+    backSpeed : 80,
+    backDelay :1500,
+})
+</script>
+<script>
+  function handleSubmit(event) {
+    event.preventDefault();
+    document.getElementById('contact-form').reset();
+    document.getElementById('char-count').textContent = '0 / 500 characters';
+    const successMsg = document.getElementById('success-msg');
+    successMsg.style.display = 'block';
+    successMsg.style.opacity = 0;
+    let opacity = 0;
+    const fadeIn = setInterval(() => {
+      if (opacity >= 1) clearInterval(fadeIn);
+      opacity += 0.1;
+      successMsg.style.opacity = opacity;
+    }, 50);
+    setTimeout(() => {
+      successMsg.style.display = 'none';
+    }, 4000);
+  }
+</script>
+<script>
+  function openResumeModal() {
+    document.getElementById('resumeModal').style.display = 'block';
+  }
+
+  function closeResumeModal() {
+    document.getElementById('resumeModal').style.display = 'none';
+  }
+
+  // Optional: close when clicking outside the modal
+  window.onclick = function(event) {
+    const modal = document.getElementById('resumeModal');
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar-content");
+    sidebar.style.display = sidebar.style.display === "block" ? "none" : "block";
+  }
+</script>
+
+
+
+
+<script src="JS/index.js"></script>
+
+
+
+</body>
+</html> 
